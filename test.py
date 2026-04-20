@@ -27,9 +27,19 @@ def sqeare():
         
       le.left(360 / 10)
 
+def trungel():
+   le.penup()
+   le.goto(200, 200)
+   le.pendown()
+   for _ in range(10):
+      for _ in range(3):
+        le.forward(50)
+        le.left(120)
 
+      le.left(360 / 10)
 
 circle()
 sqeare()
+trungel()
 
 window.exitonclick()
