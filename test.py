@@ -16,6 +16,20 @@ def circle():
       le.circle(50)
       le.left(360 / 20)
 
+def sqeare():
+   le.penup()
+   le.goto(0, 0)
+   le.pendown()
+   for _ in range(10):
+      for _ in range(4):
+         le.forward(50)
+         le.left(90)
+        
+      le.left(360 / 10)
+
+
+
 circle()
+sqeare()
 
 window.exitonclick()
